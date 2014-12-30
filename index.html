@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>WebCalculator</title>
+		<!-- Page Metadata -->
+		<meta charset="utf-8" />
+		<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Free Web calculator works with HTML, CSS and JavaScript" />
+		<meta name="author" content="Arkadi Yoskovitz" />
+
+		<!-- Linked CSS files -->
+		<link rel="stylesheet" type="text/css" href="css/layout.css" />
+		<link rel="stylesheet" type="text/css" href="css/theme.css" />
+		
+		<!-- Linked JavaScript files -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/behaviourCalculation.js"></script>
+		<script type="text/javascript" src="js/behaviourDrawing.js"></script>
+		<script type="text/javascript" src="js/behaviourEvents.js"></script>
+	</head>
+	<body>
+		<div class="gridContainer">
+			<div id="mobileContent">
+				<p>
+					This is a desktop web Application, please access this URL desktop computer
+				</p>
+			</div>
+			<div id="desktopContent">
+				<header>
+					<h1>Web Claculator</h1>
+					<hr/>
+					<noscript>
+						<h2>
+							Sorry, your browser does not support JavaScript, or you have disabled it. Please enable JavaScript and reload the page
+						</h2>
+					</noscript>
+				</header>
+				<div class="main">
+					<aside class="left">
+					<h2>
+						Final project<br/>
+						Web technology course
+					</h2>
+					<hr/>
+					<p>
+						The calculator supports:
+						Addition, subtraction, multiplication, division, power, square root and parentheses
+					</p>
+					<hr/>
+					<p>
+						The calculator allow the user to input a mathematical expression and evaluate
+					</p>
+					<hr/>
+					<p>
+						Input: 1 + 2*3^2 <br/>
+						Output: 19 <br/>
+						Input: (1 + 2*3)^2 <br/>
+						Output: 49 <br/>
+						Input: ((1 + 2)*3)^2 <br/>
+						Output: 81
+					</p>
+					</aside>
+					<section>
+						<h2>Enter expression to evaluate</h2>
+						<div id="outlineWrapper">
+							<div id="inputView" class="wrapper label input">Enter an expression to evaluate</div>
+							<div id="outputView" class="wrapper label output">Output TEXT</div>
+							<!-- Program expression handling -->
+							<div id="wExp" class="wrapper expression">
+								<div class="operation button program" id="clear">Clear</div>
+								<div class="operation button program">%</div>
+								<div class="operation button program" id="redo">Redo</div>
+								<div class="operation button program" id="undo">Undo</div>
+							</div>
+							<!-- Advanced mathematical expression -->
+							<div id="wAdvExp" class="wrapper advancedOperation">
+								<div class="operation button">sqrt</div>
+								<div class="operation button">^</div>
+								<div class="operation button">(</div>
+								<div class="operation button">)</div>
+							</div>
+							<!-- Outer Number Pad -->
+							<div id="outerNumberPad" class="wrapper label">
+								<!-- Number Pad -->
+								<div id="wNumPad" class="wrapper numberPad">
+									<!--  -->
+									<div class="number button">7</div>
+									<div class="number button">8</div>
+									<div class="number button">9</div>
+									<!--  -->
+									<div class="number button">4</div>
+									<div class="number button">5</div>
+									<div class="number button">6</div>
+									<!--  -->
+									<div class="number button">1</div>
+									<div class="number button">2</div>
+									<div class="number button">3</div>
+									<!--  -->
+									<div class="number button">0</div>
+									<div class="number button">.</div>
+									<div class="action button">=</div>
+								</div>
+								<!-- Basic mathematical operations -->
+								<div class="wrapper operation">
+									<div class="operation button basic">/</div>
+									<div class="operation button basic">*</div>
+									<div class="operation button basic">-</div>
+									<div class="operation button basic">+</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<aside class="right">
+						<p>
+							<h2>פרויקט מסכם לקורס טכנולוגיות Web </h2>
+							<hr/>
+							המחשבון כולל את הפעולות הבאות: <br/>
+							חיבור, חיסור, כפל, חילוק, <br/>
+							שורש, חזקה וסוגריים. 
+							<hr/>
+							המחשבון מסוגל לקבל ביטויים שלמים ולפתור אותם על פי סדר הפעולות הנכון. לדוגמא:
+						</p>
+						<hr/>
+						<p class="exampleRight">
+							Input: 1 + 2*3^2 <br/> 
+							Output: 19 <br/>
+							Input: (1 + 2*3)^2 <br/>
+							Output: 49 <br/>
+							Input: ((1 + 2)*3)^2 <br/>
+							Output: 81
+						</p>
+					</aside>
+				</div>
+				<footer>
+					Made by Arkadi Yoskovitz. Copyright &copy; 2014 All4Students.info All rights reserved
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

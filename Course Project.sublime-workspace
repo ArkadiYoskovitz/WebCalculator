@@ -1,0 +1,495 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"to",
+				"tokens"
+			],
+			[
+				"kno",
+				"knownFunctions"
+			],
+			[
+				"in",
+				"inputQueue"
+			],
+			[
+				"ch",
+				"childWidth"
+			],
+			[
+				"fi",
+				"fixWidth"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"bo",
+				"border-width"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"re",
+				"reverse"
+			],
+			[
+				"ca",
+				"calculateStackValue"
+			],
+			[
+				"stack",
+				"Stack"
+			],
+			[
+				"a",
+				"spanArray"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"tex",
+				"textValue"
+			],
+			[
+				"o",
+				"operationStack"
+			],
+			[
+				"fo",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"op",
+				"operationStack"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
+				"tes",
+				"testString"
+			],
+			[
+				"te",
+				"testSpanString"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"ou",
+				"outputView"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"cli",
+				"clickStack"
+			],
+			[
+				"w",
+				"wrapper"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"out",
+				"outputTextView"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"cou",
+				"countBiggerThenAVG"
+			],
+			[
+				"is",
+				"isPrime"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"nu",
+				"number"
+			],
+			[
+				"v",
+				"val"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"obj",
+				"object"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"digi",
+				"digit"
+			],
+			[
+				"di",
+				"digit"
+			],
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"p",
+				"phone"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/preview-safari.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/index.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourCalculation.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/css/theme.css",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourDrawing.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourEvents.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/jquery-1.11.1.min.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/testing.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/testingShountingYardVTwo.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/testingShountingYardVThree.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/Course Project.sublime-project",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/css/layout.css",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/css/testing.css",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviour.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/calculation.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/testCode.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/extars.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/calculations.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/arkTest.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/arkTest",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/functionExecute.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/testing.html",
+		"/Users/arkadi/Library/Application Support/Sublime Text 2/Packages/User/safari.sublime-build",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/Course Project.sublime-workspace",
+		"/Users/arkadi/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/calculatorJS.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/calculatorCSS.css",
+		"/Users/arkadi/Copy/Programming For The Mobile/04 - Web Module/01 - HTML/colorDiv VsTable/wDiv.html",
+		"/Users/arkadi/Copy/Programming For The Mobile/04 - Web Module/02 - CSS/1-2-13/wDiv.html",
+		"/Users/arkadi/Copy/Programming For The Mobile/04 - Web Module/02 - CSS/1-2-13/wDivIDs.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/exersice10.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/exersice09.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/exersice05.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/exersice06.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/exersice04.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/index.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/exersice07.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/exersice03.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/exersice02.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/exersice01.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/testingStuff.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 06 - Code/exersice01",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 05 - Code/javascript.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 05 - Code/index.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 03 - Code/Style in Main HTML file Example/Lesson 03.sublime-project",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 03 - Code/index.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 02 - Code/second.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 02 - Code/index.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 02 - Code/third.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 02 - Code/Lesson 02.sublime-project",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 02/index.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 01 - Code/untitled folder/third.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 01 - Code/Second Page.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 01 - Code/index.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/Lesson 01/Hello world.html",
+		"/Users/arkadi/Downloads/document.json",
+		"/Users/arkadi/Documents/workspace/MobileWeb/car4student/car4students.html",
+		"/Users/arkadi/Downloads/JSON-basicObject.html",
+		"/Users/arkadi/Downloads/nant-0.93-nightly-2013-01-16/NAnt.build",
+		"/Users/arkadi/Downloads/drivingdemo/index.html",
+		"/Users/arkadi/Documents/EdgeAnimation/publish/car4students_edgePreload.js",
+		"/Users/arkadi/Downloads/jquery-mobile-theme-111702-0/themes/car4student.css",
+		"/Users/arkadi/Downloads/jquery-mobile-theme-113331-0/index.html",
+		"/Users/arkadi/Documents/workspace/backup rentAcar/themes/rentAcar.css",
+		"/Users/arkadi/Downloads/jquery-mobile-theme-094035-0/index.html",
+		"/Users/arkadi/Documents/workspace/Rent-A-Car/testMedia.css",
+		"/Users/arkadi/Documents/workspace/Rent-A-Car/car4students.html",
+		"/Users/arkadi/Downloads/view-source www.dekel-o.info arkadi car4student car4Students.html",
+		"/Users/arkadi/Documents/EdgeAnimation/car4students.html",
+		"/Users/arkadi/Documents/EdgeAnimation/publish/car4students.html",
+		"/Users/arkadi/Documents/Computer Topics/Programming For The Mobile/04 - Web module/04 - HTML 5/Demos/HTML5WebWorkers.html",
+		"/Users/arkadi/Library/Application Support/Adobe/Edge Code/extensions/user/emmet-master/README.md",
+		"/Users/arkadi/Documents/workspace/Rent-A-Car/index.html",
+		"/Users/arkadi/Library/Application Support/Adobe/Edge Code/extensions/brackets-beautify-master/README.md",
+		"/Users/arkadi/Library/Application Support/Adobe/Edge Code/extensions/user/brackets-formatter-extension-master/README.md",
+		"/Users/arkadi/Downloads/Rent-A-Car/rentAcar.html",
+		"/Users/arkadi/Downloads/Rent-A-Car/Untitled-3.html",
+		"/Users/arkadi/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/arkadi/Downloads/TweetView-master/README.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"log",
+			"calculateValue",
+			"spanArrayToTextArray",
+			"push",
+			"tokensiseArray",
+			"Operators",
+			"Token",
+			"runShuntingYard",
+			"neg",
+			"operatorPriority",
+			"array",
+			"operatorPriority",
+			"Tokens",
+			"article",
+			"span",
+			"wrapperExpression",
+			"padding",
+			"expression",
+			"number",
+			"yellow",
+			"bor",
+			"evaluateExpression",
+			"Tokens",
+			"Error! You have entered a bad expression",
+			"Error! You have entered a bad expression\"",
+			"Error! You have entered a bad expression\");",
+			"  operatorStack.length!==0",
+			"  while(operatorStack.length!==0)",
+			"  while(operatorStack.length!==0) {",
+			"  while(operatorStack.length!==0) {\n\n",
+			"Priority",
+			"List",
+			"Stack",
+			"Operators",
+			"Stack",
+			"%",
+			"clickStack",
+			"evaluateExpression",
+			"desktopContent",
+			"main",
+			"height",
+			"in-height",
+			"right",
+			"section",
+			"vh",
+			"bro",
+			"browser",
+			"green",
+			"greeb",
+			"button",
+			"input",
+			"div",
+			"152",
+			"btnOne",
+			"line-height",
+			"right",
+			"left",
+			"height",
+			"hei",
+			"hi",
+			"mainContentDeskTop",
+			"aside",
+			"right",
+			"padding",
+			"London",
+			"section",
+			"class",
+			"hr",
+			"br",
+			"pa",
+			"pad",
+			"advancedOperationWrapper",
+			"calculator",
+			"advancedOperationWrapper",
+			"calculator",
+			"keybordOutline",
+			"sec"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Lesson 01 - Code/Lesson 01.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true
+}

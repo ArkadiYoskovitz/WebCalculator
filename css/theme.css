@@ -1,0 +1,178 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+html, body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+body {
+    background-color: lightblue;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+aside, section {
+    display:inline-block;
+    line-height: 30px;
+    text-align: center;
+    padding: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0px;
+    float: left;
+}
+
+aside {
+    background-color: #eeeeee;
+    width: 20%;
+}
+aside > h2{
+    text-align: center;
+}
+aside.left {
+    text-align: left;
+}
+
+aside.right {
+    text-align: right;
+    direction: rtl;
+    float: right;
+}
+
+section {
+    background-color: #add8e6;
+    width: 48%;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    clear: both;
+    padding: 1%;
+    position: static;
+}
+
+p.exampleRight {
+    direction: ltr;
+    text-align: left; 
+}
+
+div {
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0 auto; 
+    margin: 0 auto;
+    min-width: 48px;
+}
+
+#outlineWrapper {
+    float: none;
+    width: 100%;
+}
+#outerNumberPad {
+    border-bottom: 2px solid black;
+    border-top: 0px solid black;
+    background-color: red;
+}
+
+.wrapper {
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+}
+.wrapper.expression {
+    background-color: orange;
+    border-top: 2px solid black;
+    width: 99.85%;
+}
+.wrapper.advancedOperation {
+    background-color: orange;
+    width: 99.85%;
+}
+.wrapper.numberPad{
+    background-color: green;
+    border: 0px solid black;
+    width:74.5%;
+}
+.wrapper.operation {
+    background-color: blue;
+    border: none;
+    width: 24.75%;
+}
+
+.label{
+    background-color: rgb(255,255,255);
+    min-height: 30px;
+    width: 99.85%;
+    border-bottom: none;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.input {
+    text-align: left;
+}
+.output {
+    text-align: right;
+}
+
+.button {
+    border: none;
+    border-left: 1px solid black;
+    padding: 0 auto; 
+    margin: 0 auto;
+    min-width: 20%;
+}
+.button.operation {
+    background-color: rgb(212,212,212);
+}
+.button.operation:active {
+    background-color: rgb(14,14,14);
+    color: white;
+}
+.button.operation.basic {
+    background-color: rgb(212,212,212);
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    width: 100%;
+}
+.button.operation.basic:active {
+    background-color: rgb(14,14,14);
+    color: white;
+}
+.button.number {
+    background-color: rgb(243,243,243);
+    border-top: 1px solid black;
+    width: 32.8855%;
+}
+.button.number:active {
+    background-color: rgb(14,14,14);
+    color: white;
+}
+.button.action {
+    background-color: rgb(243,243,243);
+    border-top: 1px solid black;
+    width: 32.9%;
+}
+.button.action:active {
+    background-color: rgb(14,14,14);
+    color: white;
+}
+#desktopContent {
+    border: hidden;
+}
+.main {
+    background-color: brown;
+    border: hidden;
+}

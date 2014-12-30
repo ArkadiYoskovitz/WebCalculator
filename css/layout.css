@@ -1,0 +1,73 @@
+/* Mobile Layout: 480px and below. */
+.gridContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 88.626%;
+    padding-left: 1.1869%;
+    padding-right: 1.1869%;
+    border: none;
+}
+#mobileContent {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+#desktopContent {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: none;
+    text-align: center;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 481px) {
+    .gridContainer {
+        width: 91.4836%;
+        padding-left: 0.7581%;
+        padding-right: 0.7581%;
+    }
+    #mobileContent {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    #desktopContent {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: none;
+        text-align: center;
+    }
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 769px) {
+    .gridContainer {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0 auto;
+    }
+    #mobileContent {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: none;
+    }
+    #desktopContent {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
