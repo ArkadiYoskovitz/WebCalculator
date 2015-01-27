@@ -2,36 +2,49 @@
 // Helper Functions
 // ======================================================================
 function spanArrayToTextArray(spanArray) {
-  spanArray = spanArray.reverse();
-
-  var stack = [];
-  var textValue = "", errValue = "";
 
   var element;
+  var stack = [];
+  var negCombination = ['+','-','/','*','^','('];
+  var textValue = "", errValue = "";
 
-  for (var i = spanArray.length - 1; i >= 0; i--) {
+  for (var i = 0; i < spanArray.length; i++) {
 
     element = spanArray[i].innerHTML;
     
     switch (element) {
       case "1": case "2": case "3": case "4": case "5":
       case "6": case "7": case "8": case "9": case "0": case ".":
-            textValue = textValue + element;
-            break;
+          textValue = textValue + element;
+        break;
+      
+      case "-":
+          if (i == 0) {
+            element = "neg";
+          } else if (negCombination.indexOf( spanArray[i - 1].innerHTML ) != -1) {
+            element = "neg";
+          };
 
-          case "/": case "*": case "-": case "+":
-          case "sqrt": case "^":
-          case "log": case "sin": case "cos": case "tan":
-          case "(": case ")":
-            if (textValue !== "") {
-              stack.push(textValue);
-              textValue = "";
-        };
-        stack.push(element)
+          if (textValue !== "") {
+            stack.push(textValue);
+            textValue = "";
+          };
+          stack.push(element)
+        break;
+
+      case "/": case "*": case "+":
+      case "sqrt": case "^": case "%":
+      case "log": case "sin": case "cos": case "tan":
+      case "(": case ")":
+          if (textValue !== "") {
+            stack.push(textValue);
+            textValue = "";
+          };
+          stack.push(element)
         break;
 
       default:
-        errValue = errValue + " " + element;
+          errValue = errValue + " " + element;
         break;
     }
   };

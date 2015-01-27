@@ -233,16 +233,16 @@
 	"file_history":
 	[
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/index.html",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourEvents.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourDrawing.js",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourCalculation.js",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/css/theme.css",
-		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourDrawing.js",
-		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourEvents.js",
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/css/layout.css",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/jquery-1.11.1.min.js",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/testing.js",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/testingShountingYardVTwo.js",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/testingShountingYardVThree.js",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/Course Project.sublime-project",
-		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/css/layout.css",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/css/testing.css",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviour.js",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/calculation.js",
@@ -327,6 +327,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"clickStack",
+			"firstInput",
 			"log",
 			"calculateValue",
 			"spanArrayToTextArray",
