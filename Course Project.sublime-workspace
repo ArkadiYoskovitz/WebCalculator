@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"ele",
+				"else"
+			],
+			[
+				"tex",
+				"textStack"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
 				"fun",
 				"fun	Function"
 			],
@@ -48,10 +60,6 @@
 				"border-top"
 			],
 			[
-				"for",
-				"for	for (…) {…}"
-			],
-			[
 				"re",
 				"reverse"
 			],
@@ -70,10 +78,6 @@
 			[
 				"b",
 				"b"
-			],
-			[
-				"tex",
-				"textValue"
 			],
 			[
 				"o",
@@ -232,10 +236,10 @@
 	},
 	"file_history":
 	[
+		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourCalculation.js",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/index.html",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourEvents.js",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourDrawing.js",
-		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/behaviourCalculation.js",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/css/theme.css",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/css/layout.css",
 		"/Users/arkadi/Copy/Practical Software Engineer/Practical Software Engineer - Year 02/07 - HTML & Javascript/HTML & Javascript - Course Project/js/jquery-1.11.1.min.js",
@@ -327,6 +331,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"neg",
 			"clickStack",
 			"firstInput",
 			"log",

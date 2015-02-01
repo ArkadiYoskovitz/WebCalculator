@@ -110,8 +110,6 @@ function runShuntingYard(inputQueue){
   var knownFunctions = ['log','sin','cos','tan'];
   var knownFunctionsargumentSeparator = [','];
 
-  var wereValuesStack = [];
-  var   argCountStack = [];
   var   operatorStack = [];
   var     outputQueue = [];
   
@@ -119,7 +117,7 @@ function runShuntingYard(inputQueue){
   var i;
 
   // 1. While there are tokens to be read:
-  for(i=0;i<inputQueue.length;i++){
+  for ( i=0 ; i<inputQueue.length ; i++) {
     
     // 2. Read a token.
     token = inputQueue[i];
@@ -158,8 +156,8 @@ function runShuntingYard(inputQueue){
       var o2 = operatorStack[operatorStack.length-1]; //top operator of the operator stack
 
       while ( (knownOperators.indexOf(o2) != -1) && (
-                (operatorAssociativity(o1) == "Left"  && (operatorPriority(o1) <= operatorPriority(o2)) ) || 
-                (operatorAssociativity(o1) == "Right" && (operatorPriority(o1) <  operatorPriority(o2)) ) )  ) {
+              (operatorAssociativity(o1) == "Left"  && (operatorPriority(o1) <= operatorPriority(o2)) ) || 
+              (operatorAssociativity(o1) == "Right" && (operatorPriority(o1) <  operatorPriority(o2)) ) )  ) {
         // 12. Pop o2 off the stack, onto the output queue;
         outputQueue.push(operatorStack.pop());
         o2 = operatorStack[operatorStack.length-1]
@@ -215,25 +213,33 @@ function runShuntingYard(inputQueue){
 }
 
 function isTrigonometricFunction(tokens) {
-  if ( ( $.inArray('log',tokens)!==-1 ) || ( $.inArray('sin',tokens)!==-1 ) || 
-       ( $.inArray('cos',tokens)!==-1 ) || ( $.inArray('tan',tokens)!==-1 )   ) {
+  
+  if ( ( tokens.indexOf('log') !== -1 ) || ( tokens.indexOf('sin') !== -1 ) || 
+       ( tokens.indexOf('cos') !== -1 ) || ( tokens.indexOf('tan') !== -1 ) ) {
     return true;
   };
+
   return false;
 }
+
 // ====================================================================
 function calculateValue(rpnTokens) {
   var stack = [];
+  var element;
   var v,n;
   
   var precisionFlag = isTrigonometricFunction(rpnTokens);
-
-  for (v in rpnTokens) {
-    if ( isNumeric(rpnTokens[v]) ) {
-        stack.push( Number(rpnTokens[v]) );
+  
+  for (var i = 0; i < rpnTokens.length; i++) {
+    
+    element = rpnTokens[i];
+    
+    if ( isNumeric(element) ) {
+        stack.push( Number(element) );
         continue;
     };
-    switch (rpnTokens[v]) {
+    
+    switch (element) {
       case '+':
           stack.push( stack.pop() + stack.pop() );
           break;
@@ -263,7 +269,7 @@ function calculateValue(rpnTokens) {
           if (stack.length > 0) {
             stack.push( 0 - stack.pop() );
           } else {
-            rpnTokens[v+1] = 0 - rpnTokens[v+1];
+            rpnTokens[ i + 1 ] = 0 - rpnTokens[ i + 1 ];
           };
           break;
       case 'log':
